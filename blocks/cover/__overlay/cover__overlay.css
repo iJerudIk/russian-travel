@@ -1,0 +1,32 @@
+.cover__overlay{
+  width: 100%;
+  min-height: 740px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(42, 44, 47, 0.3);
+  transition: 0.65s background ease-in-out;
+  z-index: 1;
+}
+
+.cover__overlay:hover{
+  background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1279px){
+  .cover__overlay{
+    min-height: 640px; /* Я хотел использовать padding-bottom: 62.5% (с position: absolute для overlay), но мне сказали незя */
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .cover__overlay{
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .cover__overlay{
+    min-height: 200px;
+  }
+}

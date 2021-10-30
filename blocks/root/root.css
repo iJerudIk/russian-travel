@@ -1,0 +1,17 @@
+.root{
+  background-color: #2A2C2F;
+  box-sizing: border-box;
+  padding: 28px 0 24px;
+}
+
+@media screen and (max-width: 1023px){
+  .root{
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .root{
+    padding-top: 16px;
+  }
+}
