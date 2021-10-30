@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
   text-decoration: none;
+  box-sizing: border-box; /* убрало горизонтальный скрол */
 }
 
 @media screen and (max-width: 1279px){
