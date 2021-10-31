@@ -4,3 +4,9 @@
   padding: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 767px){
+  .header__lang-links{
+    margin: 14px 0 8px -18px;
+  }
+}
